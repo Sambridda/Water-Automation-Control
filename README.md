@@ -1,4 +1,4 @@
-# HydroLogix: Custom Water Automation Ecosystem 🌊
+# HydroLogix: Custom Water Automation Ecosystem 
 > **Engineering Philosophy:** Anticipate every failure point. Mitigate before fabrication.
 
 [![System Status](https://img.shields.io/badge/Status-Prototyping_Phase-orange)](#)
