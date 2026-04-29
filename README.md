@@ -42,12 +42,12 @@ Detailed technical specifications are available in the repository:
 A deep dive into the physical design and validation stages.
 
 ### 1. Circuit Design & Analysis
-* [**PCB Schematics**](./assets/pcb_schematics.pdf) - Detailed circuit diagram showing power paths and data lines.
-* [**PCB Editor View**](./assets/pcb_editor_view.pdf) - A look inside the EDA software, highlighting the "Edit Mode" of the panelized board and grounding strategy.
+* [**PCB Schematics**](./Assets/PCB_Schematics.pdf) - Detailed circuit diagram showing power paths and data lines.
+* [**PCB Editor View**](./Assets/PCB_Editor.pdf) - A look inside the EDA software, highlighting the "Edit Mode" of the panelized board and grounding strategy.
 
 ### 2. 3D Renders (The Goal)
 These renders show the anticipated final form of the consolidated Master Board.
-<img src="./visuals/pcb_3d_render.png" alt="3D View of PCB" width="70%">
+<img src="./3D_View.png" alt="3D View of PCB" width="70%">
 
 ### 3. Physical Prototyping (The Reality - SC1)
 Validation on the bench before finalizing PCB trace routing.
