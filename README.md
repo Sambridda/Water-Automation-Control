@@ -54,7 +54,7 @@ Validation on the bench before finalizing PCB trace routing.
 
 | **Prototype: Front View** | **Prototype: Back View** |
 | :---: | :---: |
-| <img src="./visuals/SC1 front(1).png" alt="Prototype Front" width="100%"> | <img src="./visuals/SC1 back(1).png" alt="Prototype Back" width="100%"> |
+| <img src="./visuals/SC1%20front(1).png" alt="Prototype Front" width="100%"> | <img src="./visuals/SC1%20back(1).png" alt="Prototype Back" width="100%"> |
 | *Validation of power rails and component layout.* | *Point-to-point wiring and signal logic.* |
 
 ---
