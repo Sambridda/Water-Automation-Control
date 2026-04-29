@@ -23,6 +23,16 @@ To optimize for both signal integrity and manufacturing budget, the hardware des
 
 ---
 
+## 💧 The Mission: Smart Resource Orchestration
+This system was developed to solve the "Open-Loop" problem in residential/commercial water management—where manual monitoring leads to pump burnout (dry-running) or water wastage (overflow).
+
+### How it Works:
+1. **Orchestration:** The Master Unit (Pocket UI) communicates with the **Sump Station** and **Overhead Station** via WACPv4.0.
+2. **Autonomous Logic:** Using a distributed State Machine, the system monitors reservoir levels. If the Overhead Tank is low AND the Sump has sufficient water, the **HydroLogix OS** triggers the pump.
+3. **Safety Interlocks:** The system performs real-time current analysis. If a "Stalled Rotor" or "Dry Run" is detected via amperage spikes/drops, the system executes a sub-millisecond hardware halt to protect the motor.
+
+---
+
 ## 🎨 Assets & Visualizations
 A deep dive into the physical design and validation stages.
 
