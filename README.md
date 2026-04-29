@@ -47,14 +47,14 @@ A deep dive into the physical design and validation stages.
 
 ### 2. 3D Renders (The Goal)
 These renders show the anticipated final form of the consolidated Master Board.
-<img src="./visuals/pcb_3d_render.png" alt="3D View of PCB" width="70%">
+<img src="./visuals/3D_View.png" alt="3D View of PCB" width="70%">
 
 ### 3. Physical Prototyping (The Reality - SC1)
 Validation on the bench before finalizing PCB trace routing.
 
 | **Prototype: Front View** | **Prototype: Back View** |
 | :---: | :---: |
-| <img src="./visuals/prototype_front.png" alt="SC1 Prototype Front" width="100%"> | <img src="./visuals/prototype_back.png" alt="SC1 Prototype Back" width="100%"> |
+| <img src="./visuals/SC1 front(1).png" alt="Prototype Front" width="100%"> | <img src="./visuals/SC1 back(1).png" alt="Prototype Back" width="100%"> |
 | *Validation of power rails and component layout.* | *Point-to-point wiring and signal logic.* |
 
 ---
