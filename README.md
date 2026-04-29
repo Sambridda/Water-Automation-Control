@@ -23,7 +23,7 @@ To optimize for both signal integrity and manufacturing budget, the hardware des
 * **Failure Point Anticipation:** Components are selected and laid out to ensure that if a single node fails, the system defaults to a "Normally Closed" (Safe) state.
 
 ### 🧪 Current Prototyping (Phase: SC1)
-I am currently validating the **HydroLogix OS** kernel and **WACPv4.0** timing on the **SC1 Perfboard**. 
+I am currently validating the **HydroLogix OS** kernel and **WACPv4.0** timing on the **SC1 Perfboard**.
 * **SC1 Front:** Power distribution and component interface testing.
 * **SC1 Back:** Point-to-point wiring validation before finalizing the PCB trace routing.
 
@@ -34,7 +34,28 @@ Detailed technical specifications are available in the repository:
 * [**Design Overview**](./Design%20overview.pdf) - Core philosophy and failure mitigation strategies.
 * [**System Architecture**](./System%20Architecture.pdf) - Hardware schematics and the All-in-One board layout.
 * [**Communication Protocol & OS**](./Communication%20Protocol%20&%20OS.pdf) - WACPv4.0 specs and HydroLogix OS kernel logic.
-* [**Performance Analysis**](./Performance%20Analysis.pdf) - Latency data and stress-test results. (scheduled)
+* [**Performance Analysis**](./Performance%20Analysis.pdf) - Latency data and stress-test results.
+
+---
+
+## 🎨 Assets & Visualizations
+A deep dive into the physical design and validation stages.
+
+### 1. Circuit Design & Analysis
+* [**PCB Schematics**](./assets/pcb_schematics.pdf) - Detailed circuit diagram showing power paths and data lines.
+* [**PCB Editor View**](./assets/pcb_editor_view.pdf) - A look inside the EDA software, highlighting the "Edit Mode" of the panelized board and grounding strategy.
+
+### 2. 3D Renders (The Goal)
+These renders show the anticipated final form of the consolidated Master Board.
+<img src="./visuals/pcb_3d_render.png" alt="3D View of PCB" width="70%">
+
+### 3. Physical Prototyping (The Reality - SC1)
+Validation on the bench before finalizing PCB trace routing.
+
+| **Prototype: Front View** | **Prototype: Back View** |
+| :---: | :---: |
+| <img src="./visuals/prototype_front.png" alt="SC1 Prototype Front" width="100%"> | <img src="./visuals/prototype_back.png" alt="SC1 Prototype Back" width="100%"> |
+| *Validation of power rails and component layout.* | *Point-to-point wiring and signal logic.* |
 
 ---
 *Developed by Sambridda*
