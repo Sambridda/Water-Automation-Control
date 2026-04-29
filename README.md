@@ -34,7 +34,7 @@ Detailed technical specifications are available in the repository:
 * [**Design Overview**](./Design%20overview.pdf) - Core philosophy and failure mitigation strategies.
 * [**System Architecture**](./System%20Architecture.pdf) - Hardware schematics and the All-in-One board layout.
 * [**Communication Protocol & OS**](./Communication%20Protocol%20&%20OS.pdf) - WACPv4.0 specs and HydroLogix OS kernel logic.
-* [**Performance Analysis**](./Performance%20Analysis.pdf) - Latency data and stress-test results.
+* [**Performance Analysis**](./Performance%20Analysis.pdf) - Latency data and stress-test results. (scheduled)
 
 ---
 *Developed by Sambridda*
